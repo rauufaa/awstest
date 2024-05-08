@@ -4,7 +4,7 @@ const connection = await mysql.createConnection({
     host: 'database-1.crgmwa8m4s4q.ap-southeast-2.rds.amazonaws.com',
     user: 'admin',
     password: 'Kane3412',
-    database: 'mysql',
+    database: 'user',
 });
 
 try {
